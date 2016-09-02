@@ -32,4 +32,5 @@ public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
                 .authorizedGrantTypes("authorization_code", "refresh_token",
                         "password").scopes("openid");
     }
+
 }
