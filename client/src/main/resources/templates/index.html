@@ -18,9 +18,11 @@
 <div class="container">
     <div class="jumbotron">
         <h1>Client</h1>
-        <h2>Authorization Code: <span th:text="${authCode}"></span></h2>
+        <h2>Authorization Code: <span th:text="${authCode}" id="auth-code"></span></h2>
+        <h2>Access Token: <span id="token"></span></h2>
         <br />
         <button id="button-getAuthCode" class="btn btn-primary" type="submit">Get Authorization Code</button>
+        <button id="button-getAccessToken" class="btn btn-primary" type="submit">Get Access Token</button>
     </div>
 </div>
 
