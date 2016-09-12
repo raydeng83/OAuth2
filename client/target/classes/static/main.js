@@ -19,6 +19,7 @@ var getAuthCode = function (authCode) {
         },
         success: function(res){
             token = res.access_token;
+            console.log(token);
             $("#token").text(token);
         }
     });
